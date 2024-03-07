@@ -1,0 +1,76 @@
+/* *****RESET***** */
+:root {
+    --color-main-color: #b91550; 
+}
+.ms_debug {
+    border: 1px solid red;
+}
+/* *****GENERAL***** */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    /* font-family: "Nome del Font", sans-serif;  */
+}
+a {
+    color: var(--color-);
+    text-decoration: none;
+}
+h2 {
+    padding: 30px !important;
+    color: white !important;
+}
+h3 {
+    font-size: 25px !important;
+}
+h5 {
+    font-weight: 700 !important;
+}
+/* font awsome{
+    content: "\";
+    font-family: 'Font Awesome\ 6 Free';
+    font-weight: 900;
+} */
+
+/* *******BODY*******  */
+/* header  */
+
+/* main  */
+#screen {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color-main-color);
+    overflow: auto;
+}
+/* footer  */
+
+
+/* *******UTILITIES*******  */
+/* color  */
+.ms-main{
+    color: var(--color-main-color);
+}
+/* border  */
+.ms_b-main{
+    border: 1.5px solid var(--color-main-color);
+}
+.active-border {
+    border: 1.5px solid var(--color-main-color) !important;
+}
+/* utility  */
+.ms_btn {
+    background-color: lightgrey !important;
+    border: 1px solid grey !important;
+    color: var(--color-main-color) !important;
+}
+/* hover  */
+.ms_btn:hover {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+/* flex utility  */
+/* media query  */
+/* @media screen and (max-width: 1200px) {}   */
+/* @media screen and (max-width: 992px) {}  */
+/* @media screen and (max-width: 768px) {}  */
+/* @media screen and (max-width: 576px) {}  */
